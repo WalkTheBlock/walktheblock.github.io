@@ -18,7 +18,8 @@
   <CopyButton label="BNB Chain" text="0x730bc48d0d110d31be8e08ddc6451e7a22b0341a" />
 
 <script setup>
-import CopyButton from '../../components/CopyButton.vue';
+import CopyButton from '../components/CopyButton.vue';
+
 
 const copy_text = (text = '') => {
   try {
